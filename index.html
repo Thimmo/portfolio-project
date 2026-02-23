@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saheed Abdullahi - Portfolio</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://framerusercontent.com/images/93av67nWlWJLh3o3pbYZC9OIefo.jpg?scale-down-to=1024" alt="Logo">
+            <span>Saheed Abdullahi</span>
+        </div>
+
+            <ul class="nav-links" id="nav-links" >
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li> 
+            </ul>
+
+            <div class="group">
+                <button class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+    </nav>
+
+    <main>
+        <section class="home">
+            <div class="hero-left">
+                <div class="socials">
+                    <a href="https://www.x.com/thimmoh" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/5969/5969020.png" alt="twitter"></a>
+                    <a href="https://www.linkedin.com/in/saheedabdullahi/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" alt="linkedin"></a>
+                </div>
+                <h1>Hi, I'm Saheed Abdullahi. <span>A Product designer & a Frontend developer.</span></h1>
+                <p>I combine product thinking and frontend development to create clean, modern experiences. My goal is simple; make complex ideas easy to understand and enjoyable to use. </p>
+                <a href="https://drive.google.com/uc?export=download&id=1Npxz1epGzudpaXr_WUoFnkQ37xI5e3CU" target="_blank">
+                    <button class="hero-button">Download Resume</button>
+                </a>
+            </div>
+            <div class="hero-right">
+                <img src="./src/assets/profileimage.jpg" alt="profile img">
+            </div>
+        </section>
+
+        <section class="about" id="about">
+                    <header>
+                        <h1 class="section2-h1">About Me</h1>
+                        <p class="section2-content">A glimpse into who I am and what I do.</p>
+                    </header>
+                    <div class="about-container">
+                        <div class="about-content">
+                            <div class="about-text">
+                                <h3>My story</h3>
+                                <p>I am Saheed, a Product Designer based in Nigeria and a graduate from the University of Ibadan and Google UX Design school. Combining UI/UX with Frontend Development, I build clean, accessible interfaces that are easy to use. I specialize in HTML, CSS, JavaScript, and Figma, always aiming to create high-quality digital experiences. When I'm not coding, I'm usually surfing the web, playing chess, or watching football.</p>
+                            </div>
+                            <div class="skill-grid">
+                                <h3>Technical skills</h3>
+                                <ul class="skills-list">
+                                    <li><span class="material-symbols-outlined">check_circle</span> HTML5 & CSS</li>
+                                    <li><span class="material-symbols-outlined">check_circle</span> Figma</li>
+                                    <li><span class="material-symbols-outlined">check_circle</span> Git & Github</li>
+                                    <li><span class="material-symbols-outlined">check_circle</span> Javascript</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <header>
+                <h1 class="section3-h1">Some Things I've Built</h1>
+                <p class="section3-content">These are a few projects I have worked on, where I focused on creating products that are both useful and enjoyable to use.</p>
+            </header>
+            <div class="project-container" id="project-container">
+
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <header>
+                <h1 class="section4-h1">Get In Touch</h1>
+                <p class="section4-content">Have a project in mind or just want to say hi? Feel free to reach out!</p>
+            </header>
+            <div class="contact-container">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="hero-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="src/script/app.js"></script>
+</body>
+</html>
